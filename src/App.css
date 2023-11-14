@@ -1,0 +1,63 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  
+}
+
+.container{
+  border-radius: 25px ;
+  background-color: #a6dede;
+  width: 90%;
+  margin: auto;
+  min-height:100vh;
+  padding: 8px 15px;
+  box-sizing: border-box;
+}
+.container   form {
+  display: flex;
+  flex-direction: column;
+}
+input , textarea, button{
+  padding: 8px;
+  border-radius: 10px;
+  margin: 8px 0;
+}
+.container > h1{
+  font-size: 30px;
+  font-weight: 900;
+  font-family: poppins;
+  margin: 10px;
+}
+.task{
+  display: flex;
+  overflow: scroll;
+}
+
+.task > div{
+ 
+  width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+font-size: 15px;
+font-weight: 600;
+font-family: poppins;
+color: #0000ff78;
+}
+.task > button{
+  border-radius: 100px;
+  width: 20px;
+  height: 10px;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+
+
+.text-hide{
+
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
